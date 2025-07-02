@@ -6,6 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 load_dotenv()
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
+    convert_system_message_to_human=True,
     temperature=0,
     max_tokens=None,
     timeout=None,

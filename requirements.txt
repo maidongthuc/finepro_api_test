@@ -5,3 +5,4 @@ langchain-core==0.1.42
 langchain-google-genai==1.0.1
 python-dotenv==1.0.0
 python-multipart==0.0.6
+pillow==10.1.0
